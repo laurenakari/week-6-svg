@@ -1,0 +1,36 @@
+p{
+    color: blue;
+}
+.svg{
+    animation: spin 5s linear infinite;
+    margin-left: 100px;
+    margin-top:50px;
+    margin-bottom: 100px;
+    height: 250px; 
+    width: 500px;
+    }
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.st4{
+   animation: colorful-1 5s linear infinite;
+}
+
+@keyframes colorful-1 {
+    0% { fill:#00EB88; }
+    50% { fill: #E8273E; }
+    100% { fill:#00EB88;}
+}
+
+.st5{
+    animation: colorful-2 5s linear infinite;
+ }
+ 
+ @keyframes colorful-2 {
+     0% { fill:#E8273E; }
+     50% { fill: #2320F3; }
+     100% { fill:#E8273E;}
+ }
